@@ -4,6 +4,13 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+h2{
+    font-family: Georgia, serif;
+}
 .nnnn{
     width: 190px;
 }
@@ -65,10 +72,14 @@ nav a:hover {
 #product{
     margin-bottom: 50px;
 }
+.bbb{
+    color: red;
+}
 .aaa{
     border: red solid;
     padding: 0p;
     font-size: larger;
+    border-radius: 90px;
 }
 .aaa:hover{
     color: rgb(233, 99, 10);
@@ -92,7 +103,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 633px) {
     nav {
         flex-direction: column;
     }

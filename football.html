@@ -6,68 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>FCB Sports Shop</h1>
+        <h1>Football Shop⚽</h1>
     </header>
 
     <nav>
         <a href="./index.html">Home</a>
-        <a href="./football.html">Football</a>
         <a href="./basketball.html">Basketball</a>
         <a href="./running.html">Running</a>
         <a href="./sales.html">Rammadan's Sales %25</a>
         <a href="./contact us.html">Contact me</a>
+        <a href="./cart.html">🛒</a>
     </nav>
     <div class="product">
         <h2>Football Kit</h2>
         <p>High-quality Nike football kit for a great game!</p>
         <img class="nnnn" src="./football kit.png" alt="football kit">
         <p class="aaa">Price: $99.99</p>
-    </div>
-    <div class="product">
-        <h2>Football shoes</h2>
-        <p>Nike football shoes with High-quality for a good match!</p>
-        <img class="nnnn" src="./football shoes.png" alt="football shoes">
-        <p class="aaa">Price: $29.99</p>
-    </div>
-    <div class="product" >
-        <h2>FCB Football T-Shirt</h2>
-        <p>High-quality football T-Shirt for a great game!</p>
-        <img class="nnnn" src="./football t-shirt.png" alt="football t-shirt">
-        <p class="aaa">Price: $59.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
     </div>
     <div class="product" >
         <h2>FCB Football T-Shirt</h2>
         <p>High-quality football T-Shirt for a great game!</p>
         <img class="nnnn" src="./football t-shirt1.png" alt="football t-shirt1">
-        <p class="aaa">Price: $33.99</p>
+        <p class="aaa">Price: $29.99</p>
+        <button onclick="addToCart('Football Kit', 104.99)">Add to Cart</button>
     </div>
     <div class="product"  >
         <h2>FCB Football T-Shirt</h2>
         <p> Messi's FCB football T-Shirt for a great game!</p>
         <img class="nnnn" src="./messi's football t-shirt.png" alt="football t-shirt">
+        <p class="aaa">Price: $49.99</p>
+        <button onclick="addToCart('Football Kit', 104.99)">Add to Cart</button>
+    </div>
+    <div class="product" >
+        <h2>FCB Football T-Shirt</h2>
+        <p>High-quality football T-Shirt for a great game!</p>
+        <img class="nnnn" src="./football t-shirt.png" alt="football t-shirt" >
         <p class="aaa">Price: $59.99</p>
+        <button onclick="addToCart('Football Kit', 104.99)">Add to Cart</button>
     </div>
     <div class="product">
         <h2>Football Ball</h2>
         <p>Barca football Ball with High-quality for a great match!</p>
         <img class="nnnn" src="./football ball.png" alt="football ball">
-        <p class="aaa">Price: $29.99</p>
+        <p class="aaa">Price: $9.99</p>
+        <button onclick="addToCart('Football Kit', 104.99)">Add to Cart</button>
+    </div>
+    <div class="product" >
+        <h2>Football shoes</h2>
+        <p>Nike football shoes with High-quality for a good match!</p>
+        <img class="nnnn" src="./football shoes1.png" alt="football shoes1">
+        <p class="aaa">Price: $39.99</p>
+        <button onclick="addToCart('Football Kit', 104.99)">Add to Cart</button>
     </div>
     <div class="product" id="product">
         <h2>Football shoes</h2>
         <p>Nike football shoes with High-quality for a good match!</p>
-        <img class="nnnn" src="./football shoes1.png" alt="football shoes1">
+        <img class="nnnn" src="./football shoes.png" alt="football shoes" >
         <p class="aaa">Price: $29.99</p>
+        <button onclick="addToCart('Football Kit', 104.99)">Add to Cart</button>
     </div>
-
 
     <footer>
         &copy; 2024 FCB Sports Shop. All rights reserved.
     </footer>
+    <script src="./script.js"></script>
+
 </body>
 
 </html>
